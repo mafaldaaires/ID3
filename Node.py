@@ -23,7 +23,3 @@ class Node:
 
    def get_branches(self):
       return self.branches
-
-
-
-
