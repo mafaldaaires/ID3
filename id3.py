@@ -38,6 +38,3 @@ def print_tree(node, indent=""):
         for value, subtree in branches.items():
             print(f"{indent}    {value}:")
             print_tree(subtree, indent + "        ")
-
-
-
